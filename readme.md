@@ -37,4 +37,14 @@ $ node list-todo.js
 (2) [x] Todo 2
 (3) [x] buy milk
 (4) [x] buy fruit
+
+$ node create-todo.js "Say Hello"
+Createing: Say Hello
+
+$ node list-todo.js
+(1) [x] Todo 1
+(2) [x] Todo 2
+(3) [x] buy milk
+(4) [x] buy fruit
+(5) [ ] Say Hello
 ```
